@@ -30,7 +30,7 @@ def mergeSort(arr):
             r += 1
             i += 1
 
-
+#use scatterplot instead of line plot
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 x = list(range(len(my_list)))
 plt.scatter(x, my_list, color='red')
