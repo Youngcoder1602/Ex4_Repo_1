@@ -32,12 +32,14 @@ def mergeSort(arr):
 
 
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-x = range(len(my_list))
-plt.plot(x, my_list, label = 'Before sorting')
+x = list(range(len(my_list)))
+plt.scatter(x, my_list, color='red')
+plt.title('Before sorting')
 plt.show()
 
 mergeSort(my_list)
 
-x = range(len(my_list))
-plt.plot(x, my_list, label = 'After sorting')
+x = list(range(len(my_list)))
+plt.scatter(x, my_list, color ='green')
+plt.title('After sorting')
 plt.show()
